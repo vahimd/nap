@@ -1,0 +1,58 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palevioletred;
+}
+h2{
+    text-align: center;
+}
+form{
+    padding: 10px;
+    height:420px;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 330px;
+    background-color: pink;
+
+}
+label{
+    display: block;
+    margin:1px;
+    font-weight: bold;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea{
+    padding: 8px;
+    border:3px solid whitesmoke;
+    border-radius: 10px;
+    width: 120%;
+    margin-bottom: 10px;
+
+}
+select{
+    width:1000%;
+    padding: 8px;
+    border:1px solid whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color:black;
+    background-color: solid whitesmoke;
+    cursor: pointer;
+    width: 90%;
+    height: 40px;
+    font-weight: bold;
+
+}
+input[type="submit"]:hover{
+    background-color:green;
+
+}
+.container{
+    width:500px;
+    margin: auto;
+    height: 700px;
+}
